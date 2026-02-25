@@ -20,6 +20,17 @@ name = "others"
 level = "L1"
 ```
 
+A python environment used in our experiments:
+
+```
+python    = 3.11.11
+pytorch   = 2.5.1
+torchdata = 0.11.0
+timm      = 1.0.15
+sentence-transformers = 4.1.0
+gdal      = 3.6.2
+```
+
 ## Hyper-400K
 
 All data used to construct the pre-training dataset were obtained from the official AVIRIS data portal. We provide a file manifest and some scripts under [`Hyper-400K/`](Hyper-400K).
