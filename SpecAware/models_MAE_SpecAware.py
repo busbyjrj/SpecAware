@@ -392,3 +392,25 @@ def mae_vit_large_patch8_hsi(**kwargs):
 
 mae_vit_base_patch8 = mae_vit_base_patch8_hsi
 mae_vit_large_patch8 = mae_vit_large_patch8_hsi
+
+
+
+if __name__ == '__main__':
+    import numpy as np
+    B, C, H, W = 2, 100, 224, 224
+    x = torch.randn(B, C, H, W).to("cuda")
+    wavelengths = [np.linspace(400, 2500, C).astype(np.float32) for _ in range(B)]
+    wavelengths = np.array(wavelengths)
+    wavelengths = torch.from_numpy(wavelengths).to("cuda")
+    fwhm = [np.linspace(6.0, 10.0, C).astype(np.float32) for _ in range(B)]
+    fwhm = np.array(fwhm)
+    fwhm = torch.from_numpy(fwhm).to("cuda")
+    GSD = torch.tensor([10.0, 10.0]).to("cuda")
+    sensor_name = ["av3" for _ in range(B)]
+    data_level = ["L2" for _ in range(B)]
+    x = x.to("cuda")
+
+    model = mae_vit_base_patch8(in_chans=100, patch_size=8).to("cuda")
+    out = model(x, wavelength=wavelengths, fwhm=fwhm, 
+                sensor_name=sensor_name, data_level=data_level,
+                GSD=GSD)
