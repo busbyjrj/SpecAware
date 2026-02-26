@@ -46,3 +46,7 @@ Please cite our paper if our work is helpful for your research.
 
 ## Contact
 For questions or feedback, please contact: ecnu.jirenjie@gmail.com.
+
+## Acknowledgements
+This research benefited from the following resources: [MAE](https://github.com/facebookresearch/mae), [DOFA](https://github.com/zhu-xlab/DOFA/), [Copernicus-FM](https://github.com/zhu-xlab/Copernicus-FM/), [Scale-MAE](https://github.com/torchgeo/torchgeo/blob/main/torchgeo/models/scale_mae.py), [Aurora](https://github.com/microsoft/aurora).
+
