@@ -20,7 +20,7 @@ name = "others"
 level = "L1"
 ```
 
-A python environment used in our experiments:
+A Python environment used in our experiments:
 
 ```
 python    = 3.11.11
@@ -48,5 +48,5 @@ Please cite our paper if our work is helpful for your research.
 For questions or feedback, please contact: ecnu.jirenjie@gmail.com.
 
 ## Acknowledgements
-This research benefited from the following resources: [MAE](https://github.com/facebookresearch/mae), [DOFA](https://github.com/zhu-xlab/DOFA/), [Copernicus-FM](https://github.com/zhu-xlab/Copernicus-FM/), [Scale-MAE](https://github.com/torchgeo/torchgeo/blob/main/torchgeo/models/scale_mae.py), [Aurora](https://github.com/microsoft/aurora).
+This research benefited from the following resources: [MAE](https://github.com/facebookresearch/mae), [DOFA](https://github.com/zhu-xlab/DOFA/), [Copernicus-FM](https://github.com/zhu-xlab/Copernicus-FM/), [Scale-MAE](https://github.com/torchgeo/torchgeo/blob/main/torchgeo/models/scale_mae.py), [Aurora](https://github.com/microsoft/aurora), and [SMP](https://github.com/qubvel-org/segmentation_models.pytorch).
 
