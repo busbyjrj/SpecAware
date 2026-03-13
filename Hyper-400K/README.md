@@ -27,7 +27,8 @@ Please note that the data collection used in this project is current as of Janua
 
 
 ## Example data
-An experimental subset will be released here (coming soon).
+An example subset is available [here](https://r2-proxy.3sobs.top/wgtMW2).
+
 
 ## Acknowledgement
 We sincerely thank the AVIRIS team for their sustained efforts in collecting, curating, and sharing airborne hyperspectral imagery.

