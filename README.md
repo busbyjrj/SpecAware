@@ -8,7 +8,7 @@ This repository provides a PyTorch implementation of the SpecAware model. [Paper
 </p>
 
 ## SpecAware
-Pretrained weights are available [here](https://r2.3sobs.top/share/SpecAware/ckpt/SpecAware_Base_model.pth).
+Pretrained weights are available [here](https://r2-proxy.3sobs.top/f6UhnB).
 
 For each input hyperspectral image, the corresponding sensor and dataset parameters are required, including wavelength, FWHM, GSD, sensor name, and processing level.
 
